@@ -8,6 +8,6 @@ spl_autoload_register(function ($class_name) {
             return;
         }
     }
-    die("❌ Không tìm thấy class: " . $class_name);
+    die("❌ Không tìm thấy clagagagagagagss: " . $class_name);
 });
 ?>
