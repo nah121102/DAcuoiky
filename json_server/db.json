@@ -1,0 +1,71 @@
+{
+    "mvc-rest-api/app/routes/product_api.php": 
+    [
+        {
+          "id": 8,
+          "name": "iPhone 13",
+          "price": "18990000.00",
+          "category_id": 1
+        },
+        {
+          "id": 9,
+          "name": "Samsung Galaxy S21",
+          "price": "15990000.00",
+          "category_id": 1
+        },
+        {
+          "id": 10,
+          "name": "MacBook Air M2",
+          "price": "29990000.00",
+          "category_id": 2
+        },
+        {
+          "id": 11,
+          "name": "Dell XPS 13",
+          "price": "25990000.00",
+          "category_id": 2
+        },
+        {
+          "id": 12,
+          "name": "Chuột Logitech G502",
+          "price": "1200000.00",
+          "category_id": 3
+        },
+        {
+          "id": 13,
+          "name": "Tai nghe Sony WH-1000XM4",
+          "price": "6990000.00",
+          "category_id": 3
+        },
+        {
+          "id": 14,
+          "name": "sadas",
+          "price": "123123.00",
+          "category_id": 1
+        },
+        {
+          "id": 15,
+          "name": "test",
+          "price": "123123.00",
+          "category_id": 1
+        },
+        {
+          "id": 16,
+          "name": "test",
+          "price": "123123.00",
+          "category_id": 1
+        },
+        {
+          "id": 17,
+          "name": "test1",
+          "price": "123123.00",
+          "category_id": 1
+        },
+        {
+          "id": 18,
+          "name": "test1",
+          "price": "123123.00",
+          "category_id": 1
+        }
+    ]
+}
