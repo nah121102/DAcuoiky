@@ -12,10 +12,11 @@ class Database {
             $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $exception) {
-            error_log("❌ Lỗi kết nối database: " . $exception->getMessage()); // Ghi log
+            error_log("❌ Lỗi kết nối database: " . $exception->getMessage()); 
             return null; // Trả về null thay vì die()
         }
         return $this->conn;
     }
 }
 ?>
+// Ghi log
