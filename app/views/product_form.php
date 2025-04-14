@@ -97,12 +97,12 @@ $(document).ready(function() {
                     $("#message").html("<div class='alert alert-success'>✅ Thêm sản phẩm thành công!</div>");
                     $("#productForm")[0].reset();
                 } else {
-                    $("#message").html("<div class='alert alert-danger'>❌ Lỗi khi thêm sản phẩm!</div>");
+                    $("#message").html("<div class='alert alert-danger'>❌ Lỗi khi thêm sản phẩm vao gio hang!</div>");
                 }
             },
             error: function(xhr, status, error) {
                 console.error("Lỗi AJAX:", status, error);
-                $("#message").html("<div class='alert alert-danger'>❌ Không thể thêm sản phẩm!</div>");
+                $("#message").html("<div class='alert alert-danger'>❌ Không thể thêm sản phẩm thanh cong!</div>");
             }
         });
     });
